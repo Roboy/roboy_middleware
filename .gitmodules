@@ -1,0 +1,9 @@
+[submodule "src/roboy_plexus"]
+	path = src/roboy_plexus
+	url = https://github.com/Roboy/roboy_plexus
+[submodule "src/roboy_communication"]
+	path = src/roboy_communication
+	url = https://github.com/Roboy/roboy_communication
+[submodule "src/common_utilities"]
+	path = src/common_utilities
+	url = https://github.com/Roboy/common_utilities
