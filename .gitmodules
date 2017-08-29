@@ -7,3 +7,6 @@
 [submodule "src/common_utilities"]
 	path = src/common_utilities
 	url = https://github.com/Roboy/common_utilities
+[submodule "src/roboy_interface"]
+	path = src/roboy_interface
+	url = https://github.com/Roboy/roboy_interface
