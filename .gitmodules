@@ -13,3 +13,6 @@
 [submodule "src/roboy_rqt_plugins"]
 	path = src/roboy_rqt_plugins
 	url = https://github.com/Roboy/roboy_rqt_plugins
+[submodule "src/DarkRoom_rviz"]
+	path = src/DarkRoom_rviz
+	url = https://github.com/Roboy/DarkRoom_rviz
