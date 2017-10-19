@@ -1,0 +1,5 @@
+roboy-middleware (0.0.0-1) xenial; urgency=low
+
+  * ROS packages for controlling myo muscles and for lighthouse tracking
+
+ -- Simon Trendel <simon.trendel@tum.de>  Thu, 19 Oct 2017 23:39:27 +0200
