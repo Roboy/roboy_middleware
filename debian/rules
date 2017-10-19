@@ -26,7 +26,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	if [ -f "/opt/ros/kinetic/setup.sh" ]; then . "/opt/ros/kinetic/setup.sh"; fi && \
-	catkin_make_isolated --pkg common_utilities roboy_communication_middleware roboy_rqt_plugins darkroom
+	catkin_make_isolated --pkg common_utilities roboy_communication_middleware roboy_motor_status pabiroboy_joint_control roboy_motor_command roboy_darkroom darkroom
 	
 override_dh_auto_test:
 
@@ -34,5 +34,5 @@ override_dh_shlibdeps:
 
 override_dh_auto_install:
 	if [ -f "/opt/ros/kinetic/setup.sh" ]; then . "/opt/ros/kinetic/setup.sh"; fi && \
-	catkin_make_isolated --install --install-space=${CURDIR}/debian/roboy-middleware/opt/ros/kinetic -DCMAKE_BUILD_TYPE=Release --pkg common_utilities roboy_communication_middleware roboy_rqt_plugins darkroom
+	catkin_make_isolated --install --install-space=${CURDIR}/debian/roboy-middleware/opt/ros/kinetic -DCMAKE_BUILD_TYPE=Release --pkg common_utilities roboy_communication_middleware roboy_motor_status pabiroboy_joint_control roboy_motor_command roboy_darkroom darkroom
 	find ${CURDIR}/debian/roboy-middleware/opt/ros/kinetic -type f -maxdepth 1 -delete
