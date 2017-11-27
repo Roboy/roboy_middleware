@@ -16,3 +16,6 @@
 [submodule "src/roboy_models"]
 	path = src/roboy_models
 	url = https://github.com/Roboy/roboy_models
+[submodule "src/roboy_powerlink"]
+	path = src/roboy_powerlink
+	url = https://github.com/Roboy/roboy_powerlink
