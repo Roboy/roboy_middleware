@@ -19,3 +19,6 @@
 [submodule "src/roboy_powerlink"]
 	path = src/roboy_powerlink
 	url = https://github.com/Roboy/roboy_powerlink
+[submodule "src/pysdf"]
+	path = src/pysdf
+	url = https://github.com/andreasBihlmaier/pysdf
