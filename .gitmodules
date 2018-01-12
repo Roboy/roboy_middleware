@@ -22,3 +22,6 @@
 [submodule "src/pysdf"]
 	path = src/pysdf
 	url = https://github.com/andreasBihlmaier/pysdf
+[submodule "src/roboy_realsense"]
+	path = src/roboy_realsense
+	url = https://github.com/Roboy/roboy_realsense
