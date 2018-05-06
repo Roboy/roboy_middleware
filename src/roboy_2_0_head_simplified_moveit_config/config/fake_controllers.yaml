@@ -1,0 +1,6 @@
+controller_list:
+  - name: fake_head_controller
+    joints:
+      - roboy_2_0_head_simplified__neck_axis_1
+      - roboy_2_0_head_simplified__neck_axis_2
+      - roboy_2_0_head_simplified__neck_axis_3
