@@ -145,5 +145,5 @@ head:
     - LazyPRMstarkConfigDefault
     - SPARSkConfigDefault
     - SPARStwokConfigDefault
-  projection_evaluator: joints(roboy_2_0_head_simplified__neck_axis_1,roboy_2_0_head_simplified__neck_axis_2)
+  projection_evaluator: joints(neck_axis_1,neck_axis_2)
   longest_valid_segment_fraction: 0.005

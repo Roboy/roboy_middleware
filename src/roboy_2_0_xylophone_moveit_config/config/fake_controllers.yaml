@@ -1,20 +1,20 @@
 controller_list:
   - name: fake_head_controller
     joints:
-      - roboy_2_0_simplified__neck_axis_1
-      - roboy_2_0_simplified__neck_axis_2
-      - roboy_2_0_simplified__neck_axis_3
+      - neck_axis_1
+      - neck_axis_2
+      - neck_axis_3
   - name: fake_left_arm_controller
     joints:
-      - roboy_2_0_simplified__shoulder_left_axis_1
-      - roboy_2_0_simplified__shoulder_left_axis_2
-      - roboy_2_0_simplified__shoulder_left_axis_3
-      - roboy_2_0_simplified__elbow_left
-      - roboy_2_0_simplified__wrist_left
+      - shoulder_left_axis_1
+      - shoulder_left_axis_2
+      - shoulder_left_axis_3
+      - elbow_left
+      - wrist_left
   - name: fake_right_arm_controller
     joints:
-      - roboy_2_0_simplified__shoulder_right_axis_1
-      - roboy_2_0_simplified__shoulder_right_axis_2
-      - roboy_2_0_simplified__shoulder_right_axis_3
-      - roboy_2_0_simplified__elbow_right
-      - roboy_2_0_simplified__wrist_right
+      - shoulder_right_axis_1
+      - shoulder_right_axis_2
+      - shoulder_right_axis_3
+      - elbow_right
+      - wrist_right

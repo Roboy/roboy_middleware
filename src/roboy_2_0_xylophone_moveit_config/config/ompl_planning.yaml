@@ -145,7 +145,7 @@ head:
     - LazyPRMstarkConfigDefault
     - SPARSkConfigDefault
     - SPARStwokConfigDefault
-  projection_evaluator: joints(roboy_2_0_simplified__neck_axis_1,roboy_2_0_simplified__neck_axis_2)
+  projection_evaluator: joints(neck_axis_1,neck_axis_2)
   longest_valid_segment_fraction: 0.005
 left_arm:
   planner_configs:
@@ -172,7 +172,7 @@ left_arm:
     - LazyPRMstarkConfigDefault
     - SPARSkConfigDefault
     - SPARStwokConfigDefault
-  projection_evaluator: joints(roboy_2_0_simplified__shoulder_left_axis_1,roboy_2_0_simplified__shoulder_left_axis_2)
+  projection_evaluator: joints(shoulder_left_axis_1,shoulder_left_axis_2)
   longest_valid_segment_fraction: 0.005
 right_arm:
   planner_configs:
@@ -199,5 +199,5 @@ right_arm:
     - LazyPRMstarkConfigDefault
     - SPARSkConfigDefault
     - SPARStwokConfigDefault
-  projection_evaluator: joints(roboy_2_0_simplified__shoulder_right_axis_1,roboy_2_0_simplified__shoulder_right_axis_2)
+  projection_evaluator: joints(shoulder_right_axis_1,shoulder_right_axis_2)
   longest_valid_segment_fraction: 0.005
