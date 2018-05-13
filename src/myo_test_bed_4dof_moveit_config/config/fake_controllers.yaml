@@ -1,5 +1,5 @@
 controller_list:
-  - name: fake_end_effektor_controller
+  - name: fake_link_4_controller
     joints:
       - joint_1
       - joint_2
