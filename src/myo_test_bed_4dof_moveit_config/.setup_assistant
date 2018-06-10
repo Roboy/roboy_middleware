@@ -7,4 +7,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: Simon Trendel
     author_email: simon.trendel@tum.de
-    generated_timestamp: 1526244874
+    generated_timestamp: 1528643588

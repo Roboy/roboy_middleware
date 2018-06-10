@@ -47,6 +47,8 @@
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="head" parent_link="neck_link_2" group="head" />
+    <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
+    <virtual_joint name="floating_base" type="fixed" parent_frame="world" child_link="torso" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="head" link2="neck_link_2" reason="Adjacent" />
     <disable_collisions link1="head" link2="neck_link_3" reason="Default" />
