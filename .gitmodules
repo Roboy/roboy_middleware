@@ -19,3 +19,6 @@
 [submodule "src/pysdf"]
 	path = src/pysdf
 	url = https://github.com/andreasBihlmaier/pysdf
+[submodule "src/roboy_simulation"]
+	path = src/roboy_simulation
+	url = https://github.com/letrend/roboy_simulation
