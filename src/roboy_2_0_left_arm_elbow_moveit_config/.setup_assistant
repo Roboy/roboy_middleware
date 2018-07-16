@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: AK
     author_email: unicorn@roboy.org
-    generated_timestamp: 1531540743
+    generated_timestamp: 1531593399
