@@ -11,9 +11,9 @@
     <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
     <group name="hand_left">
         <joint name="base_joint" />
-        <joint name="shoulder_left_axis_1" />
-        <joint name="shoulder_left_axis_2" />
-        <joint name="shoulder_left_axis_3" />
+        <joint name="sphere_axis0" />
+        <joint name="sphere_axis1" />
+        <joint name="sphere_axis2" />
         <joint name="elbow_left" />
         <joint name="wrist_left" />
     </group>
@@ -21,31 +21,35 @@
     <group_state name="hand_home" group="hand_left">
         <joint name="base_joint" value="0" />
         <joint name="elbow_left" value="0" />
-        <joint name="shoulder_left_axis_1" value="0.0174" />
-        <joint name="shoulder_left_axis_2" value="-0.1562" />
-        <joint name="shoulder_left_axis_3" value="0.0174" />
+        <joint name="sphere_axis0" value="0" />
+        <joint name="sphere_axis1" value="0" />
+        <joint name="sphere_axis2" value="0" />
         <joint name="wrist_left" value="-0.0607" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="hand_left" parent_link="lower_arm_left" group="hand_left" />
+    <end_effector name="hand_left" parent_link="hand_left" group="hand_left" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="fixed_to_world" type="fixed" parent_frame="world" child_link="base" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
-    <disable_collisions link1="base" link2="shoulder_left_link2" reason="Never" />
-    <disable_collisions link1="base" link2="shoulder_left_link3" reason="Never" />
+    <disable_collisions link1="base" link2="hand_left" reason="User" />
+    <disable_collisions link1="base" link2="lower_arm_left" reason="User" />
+    <disable_collisions link1="base" link2="sphere_link1" reason="Never" />
+    <disable_collisions link1="base" link2="sphere_link2" reason="Never" />
     <disable_collisions link1="base" link2="torso" reason="Adjacent" />
     <disable_collisions link1="base" link2="upper_arm_left" reason="Never" />
     <disable_collisions link1="hand_left" link2="lower_arm_left" reason="Adjacent" />
-    <disable_collisions link1="hand_left" link2="shoulder_left_link2" reason="Never" />
-    <disable_collisions link1="hand_left" link2="shoulder_left_link3" reason="Never" />
+    <disable_collisions link1="hand_left" link2="sphere_link1" reason="Never" />
+    <disable_collisions link1="hand_left" link2="sphere_link2" reason="Never" />
+    <disable_collisions link1="hand_left" link2="torso" reason="User" />
     <disable_collisions link1="hand_left" link2="upper_arm_left" reason="Never" />
-    <disable_collisions link1="lower_arm_left" link2="shoulder_left_link2" reason="Never" />
-    <disable_collisions link1="lower_arm_left" link2="shoulder_left_link3" reason="Never" />
+    <disable_collisions link1="lower_arm_left" link2="sphere_link1" reason="Never" />
+    <disable_collisions link1="lower_arm_left" link2="sphere_link2" reason="Never" />
+    <disable_collisions link1="lower_arm_left" link2="torso" reason="User" />
     <disable_collisions link1="lower_arm_left" link2="upper_arm_left" reason="Adjacent" />
-    <disable_collisions link1="shoulder_left_link2" link2="shoulder_left_link3" reason="Adjacent" />
-    <disable_collisions link1="shoulder_left_link2" link2="torso" reason="Adjacent" />
-    <disable_collisions link1="shoulder_left_link2" link2="upper_arm_left" reason="Default" />
-    <disable_collisions link1="shoulder_left_link3" link2="torso" reason="Default" />
-    <disable_collisions link1="shoulder_left_link3" link2="upper_arm_left" reason="Adjacent" />
+    <disable_collisions link1="sphere_link1" link2="sphere_link2" reason="Adjacent" />
+    <disable_collisions link1="sphere_link1" link2="torso" reason="Adjacent" />
+    <disable_collisions link1="sphere_link1" link2="upper_arm_left" reason="Default" />
+    <disable_collisions link1="sphere_link2" link2="torso" reason="User" />
+    <disable_collisions link1="sphere_link2" link2="upper_arm_left" reason="Adjacent" />
     <disable_collisions link1="torso" link2="upper_arm_left" reason="Default" />
 </robot>
