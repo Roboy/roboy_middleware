@@ -19,9 +19,6 @@
 [submodule "src/pysdf"]
 	path = src/pysdf
 	url = https://github.com/Roboy/pysdf
-[submodule "src/or_urdf"]
-	path = src/or_urdf
-	url = https://github.com/personalrobotics/or_urdf
 [submodule "src/timed_roslaunch"]
 	path = src/timed_roslaunch
 	url = https://github.com/MoriKen254/timed_roslaunch
