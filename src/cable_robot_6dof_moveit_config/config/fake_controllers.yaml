@@ -1,4 +1,0 @@
-controller_list:
-  - name: fake_box_controller
-    joints:
-      - joint
