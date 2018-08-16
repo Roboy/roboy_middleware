@@ -28,3 +28,6 @@
 [submodule "src/roboy_controller"]
 	path = src/roboy_controller
 	url = https://github.com/Roboy/roboy_controller
+[submodule "src/roboy_state_estimator"]
+	path = src/roboy_state_estimator
+	url = https://github.com/Roboy/roboy_state_estimator
