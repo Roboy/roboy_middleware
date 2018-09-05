@@ -31,3 +31,6 @@
 [submodule "src/roboy_state_estimator"]
 	path = src/roboy_state_estimator
 	url = https://github.com/Roboy/roboy_state_estimator
+[submodule "src/roboy_soli"]
+	path = src/roboy_soli
+	url = https://github.com/letrend/roboy_soli
