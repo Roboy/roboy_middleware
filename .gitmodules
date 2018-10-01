@@ -31,3 +31,6 @@
 [submodule "src/roboy_soli"]
 	path = src/roboy_soli
 	url = https://github.com/letrend/roboy_soli
+[submodule "src/ball_in_socket_estimator"]
+	path = src/ball_in_socket_estimator
+	url = https://github.com/Roboy/ball_in_socket_estimator
